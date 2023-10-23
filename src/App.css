@@ -36,3 +36,14 @@
     transform: rotate(360deg);
   }
 }
+
+
+body {
+  background-color: #004ED8;
+}
+
+.Nav {
+
+  background-color: #67B2EB ;
+  color: #004ED8;
+}

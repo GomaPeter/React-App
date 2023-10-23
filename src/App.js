@@ -1,23 +1,24 @@
-import logo from './logo.svg';
+// Importation of all the Neccesary Component form the component folder
 import './App.css';
+import NavbarComponent from './Components/NavBar';
+import CardComponent from './Components/Card';
+import CardsComponent from './Components/Card2';
+import CardComponents from './Components/Card3';
 
 function App() {
   return (
+
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* The Br tag is to spacing betweent the various Component when rendered */}
+      <br />
+      <NavbarComponent />
+      <br />
+      <CardComponent />
+      <br />
+      <CardsComponent />
+      <br />
+      <CardComponents />
+      
     </div>
   );
 }
